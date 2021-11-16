@@ -1,6 +1,9 @@
 # Tổng quan
 
 - Đây là bài tập lớn cho phần GANs, chạy trên google colab (môi trường cài đặt dễ dàng, có GPU miễn phí để sử dụng)
+- Pipeline:
+  
+  - Nhiễu => Generator => ảnh giả => Discriminator => loss => backpropagation
 
 # Dữ liệu và framework
 
