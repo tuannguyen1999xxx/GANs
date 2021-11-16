@@ -61,6 +61,8 @@
 # Kết quả
 
 **1. Loss**
+- ![](images/loss.png)
+- Từ hình ảnh ta có thể thấy trong khoảng epoch thứ 30 thì loss của generator là thấp nhất => ta có thể sử dụng model tại đây để sinh ảnh
 
 **2. Sự thay đổi qua các iterations (bước)**
 
