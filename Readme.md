@@ -59,7 +59,7 @@
 
 **1. Loss**
 
-**2. Sự thay đổi qua các iterations (bước)***
+**2. Sự thay đổi qua các iterations (bước)**
 
 Iter  | Image
 ----- | --------------------
