@@ -59,4 +59,11 @@
 
 **1. Loss**
 
+**2. Sự thay đổi qua các iterations (bước)***
+
+Iter  | Image
+----- | --------------------
+1000  | ![](images/1000.png)
+2000  | ![](images/2000.png)
+
 
