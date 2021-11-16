@@ -15,7 +15,7 @@
 - Huấn luyện (training)
 
 # Quá trình cài đặt
-1. Generator
+**1. Generator**
 
 - Mạng generator được cài đặt để sinh ra phân bố giống với phân bố của dữ liệu training
 - Sử dụng các lớp fully_connected để biến đổi.
@@ -24,14 +24,14 @@
 - Vector đầu ra là vector số chiều bằng số chiều làm phẳng kích thước ảnh training (28x28 = 784)
 - Sau đó biến đổi thành ảnh (28x28)
 
-2. Discriminator
+**2. Discriminator**
 
 - Đầu vào là ảnh được sinh ra hoặc ảnh từ dữ liệu training được làm phẳng (flatten), đầu ra là xác xuất ảnh đấy là thật hay giả
 - Qua các lớp fully_connected
 - Activation: Leakyrelu
 - Tại layer cuối sử dụng sigmoid activation để đầu ra là xác xuất từ (0 - 1)
 
-3. Training
+**3. Training**
 
 - Loss: binary cross entropy loss: bởi vì discriminator là binary classifiation
 - Đọc dữ liệu theo từng batch_size
@@ -46,12 +46,17 @@
 
 - Sau khi có g_loss và d_loss ta backpropagation, cứ thế đến hết số lượng epoch
 
-4. Biểu đồ loss:
+**4. Biểu đồ loss:**
 
 - Sử dụng tensorboard để lưu lại và biểu diễn
 
-5. Sử dụng model đã train được để sinh ngẫu nhiên ảnh giả:
+**5. Sử dụng model đã train được để sinh ngẫu nhiên ảnh giả:**
 
 - Load weight model generator vào kiến trúc đã xây dựng ở trên.
 - Sinh vector nhiễu ngẫu nhiên => qua model => ảnh
+
+# Kết quả
+
+**1. Loss**
+
 
