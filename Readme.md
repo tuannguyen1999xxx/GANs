@@ -66,13 +66,14 @@
 
 **2. Sự thay đổi qua các iterations (bước)**
 
-Iter  | Image
------ | --------------------
-1000  | ![](images/1000.png)
-10000 | ![](images/10000.png)
-20000 | ![](images/20000.png)
-30000 | ![](images/30000.png)
-40000 | ![](images/40000.png)
-50000 | ![](images/50000.png)
+Iter  | Image MNIST           | Image FashionMNIST
+----- | --------------------  | ----------------------
+1000  | ![](images/1000.png)  | ![](images/1000f.png)
+10000 | ![](images/10000.png) | ![](images/10000f.png)
+20000 | ![](images/20000.png) | ![](images/20000f.png)
+30000 | ![](images/30000.png) | ![](images/30000f.png)
+40000 | ![](images/40000.png) | ![](images/40000f.png)
+50000 | ![](images/50000.png) | ![](images/50000f.png)
+187000| ![](images/187000.png)| ![](images/187000f.png)
 
 
